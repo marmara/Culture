@@ -22,7 +22,22 @@ GIT KOMUTLARI
     git log                            # Islem gunlugunu goster 
 
     
-
+    
+ - UZAK DEPO :
+ 
+   git clone <ADRES>                   # Uzaktaki depoyu klonla
+   git pull                            # Depodaki son degisiklikleri al
+   git push origin master              # Yereldeki degisiklikleri uzak depoda uygula
+ 
+ 
+    
+- DIGER KOMUTLAR :
+   
+   git reset -- hard HEAD              # Son yapılan degisiklikleri iptal ederek HEAD geri don
+   git checkout -- <DOSYA>             # Sadece bir dosyayi depodaki haline geri getir
+   git revert HEAD                     # Son yapilan commiti geri al
+ 
+ 
     
 NOTLAR
 --------
