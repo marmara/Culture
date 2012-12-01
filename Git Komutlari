@@ -43,11 +43,16 @@ GIT KOMUTLARI
  
     
  - DIGER KOMUTLAR :
-   
+ 
+   git --version                       # Git versiyon numarasını  göster
+   git --help                          # Git yardım sayfasını göster   
    git reset -- hard HEAD              # Son yapılan degisiklikleri iptal ederek HEAD geri don
    git checkout -- <DOSYA>             # Sadece bir dosyayi depodaki haline geri getir
    git revert HEAD                     # Son yapilan commiti geri al
- 
+   git stash save                      # Commit yapilmamis degisiklikleri kaydet
+   git stash pop                       # Commit yapilmamis degisikliklere geri don
+   git stash list                      # Commit yapilmamis degisiklikleri listele
+   git stash drop                      # Commit yapilmamis degisiklikleri kaldır
  
  
  
