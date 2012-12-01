@@ -1,0 +1,1 @@
+Karsilasilacak durumlarda verilecek komut siralamalarini gosterir belgeler
