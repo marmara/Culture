@@ -17,6 +17,9 @@ GIT KOMUTLARI
     git rm <DOSYA(LAR)>                # Calisma agacında ve dizinde dosyalari kaldir
     git rm -f                          # Calisma agacında ve dizinde dosyalari zorla kaldir
     git commit -m 'not'                # Değisiklikleri depoya kaydet
+    git commit -a -m "not"             # Tum değisiklikleri depoya kaydet
+    cat .gitignore                     # Dosyayi depoya ekleme
+    git rm --cached <DOSYA>            # Dosyayi takip etmeyi birak
     git diff                           # Degisiklikler arasindaki farklari goster
     git status                         # Calisma agacindaki durumu goster
     git log                            # Islem gunlugunu goster 
@@ -45,7 +48,12 @@ GIT KOMUTLARI
  - DIGER KOMUTLAR :
  
    git --version                       # Git versiyon numarasını  göster
-   git --help                          # Git yardım sayfasını göster   
+   git --help                          # Git yardım sayfasını göster 
+   git remote -v                       # Uzak depo adresini ver
+   git log --since=<LIMIT>             # Iki zaman araligindaki commitleri goster
+   git shortlog -s                     # Commit yapanlarin isim ve commit sayilarini goster
+   git shortlog -e                     # Commit yapanlarin isim ve E-postalarini goster
+   git shortlog -n                     # Commit yapanlari commit sayisina gore sirala 
    git reset -- hard HEAD              # Son yapılan degisiklikleri iptal ederek HEAD geri don
    git checkout -- <DOSYA>             # Sadece bir dosyayi depodaki haline geri getir
    git revert HEAD                     # Son yapilan commiti geri al
@@ -70,3 +78,4 @@ KAYNAKCA
 -----------
 
     [1] http://www.kernel.org/pub/software/scm/git/docs/
+    [2] http://git-scm.com/book
