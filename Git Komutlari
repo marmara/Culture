@@ -61,8 +61,8 @@ GIT KOMUTLARI
    git stash pop                  # Commit yapilmamis degisikliklere geri don
    git stash list                 # Commit yapilmamis degisiklikleri listele
    git stash drop                 # Commit yapilmamis degisiklikleri kaldır
- 
- 
+   git grep                       # Mevcut dal icersinde kelime veya ifade arama
+   gitk                           # Git gorsellestirme programi
  
  
     
