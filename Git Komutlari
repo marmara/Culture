@@ -21,6 +21,7 @@ GIT KOMUTLARI
     cat .gitignore                # Dosyayi depoya ekleme
     git rm --cached <DOSYA>       # Dosyayi takip etmeyi birak
     git diff                      # Degisiklikler arasindaki farklari goster
+    git diff --cached             # Listeye Eklenen Değişiklikler Arasındaki Farkları Göster
     git status                    # Calisma agacindaki durumu goster
     git log                       # Islem gunlugunu goster 
 
